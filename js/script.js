@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 	//removes class makeRed, adds class makeBorder on mouseenter//
 	$("button").mouseenter(function(){
-		$(this).removeClass("makeRed").addClass("makeBorder");
+		$("button").removeClass("makeRed").addClass("makeBorder");
 	});
 
 	$("button").mouseleave(function(){
