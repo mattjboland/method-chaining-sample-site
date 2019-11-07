@@ -20,7 +20,7 @@ $(document).ready(function() {
 	  	$(".stream3").addClass('highlight_stream');
 	});
 
-	//removes class makeRed, adds class makeBorder on mouseenter
+	//removes class makeRed, adds class makeBorder on mouseenter//
 	$("button").mouseenter(function(){
 		$(this).removeClass("makeRed").addClass("makeBorder");
 	});
